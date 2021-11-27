@@ -1,0 +1,135 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+.profile{
+    margin-top: 5%;
+    text-align: center;
+}
+.profile h1{
+    font-family: 'Josefin Sans';
+    font-weight: 500;
+    font-size: 48px;
+}
+.profile p{
+    margin-top: 11px;
+    font-size: 20px;
+}
+.main_pulse{
+    margin-top: 80px;
+    display: flex;
+}
+.aboutme{
+    width: 300px;
+    margin-left: 200px;
+
+}
+.aboutme h2{
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 1.5rem;
+}
+.aboutme p{
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+.image_profile{
+    margin-top: 30px;
+    margin-left: 98px;
+}
+.image_profile img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+.details{
+    margin-left: 150px;
+}
+.details h4{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.details .information{
+    margin-top: 20px;
+    line-height: 2.2;
+}
+.details .icon{
+    margin-top: 30px;
+}
+.details .icon a{
+    color: black;
+    line-height: 1.2;
+    padding-left: 4px;
+} 
+
+/* iPhone 6 and 6+ */
+@media only screen 
+    and (max-device-width: 640px), 
+    only screen and (max-device-width: 667px), 
+    only screen and (max-width: 480px)
+{ 
+    .body{
+        margin: 8px;
+    }
+    .profile{
+        text-align: left;
+        margin-left: 10px;
+    }
+    .main_pulse{
+        margin-top: 30px;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .aboutme{
+        width: 300px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .image_profile{
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+    .details{
+        margin-top: 30px;
+        margin-left: 50px
+    }
+    .details .icon{
+        padding-bottom: 30px;
+    }
+} 
+ /* iphone X */
+ @media only screen 
+ and (min-device-width: 375px) 
+ and (max-device-width: 812px) 
+ and (-webkit-min-device-pixel-ratio: 3){ 
+    .profile{
+        text-align: left;
+        margin-left: 10px;
+    }
+    .main_pulse{
+        margin-top: 30px;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .aboutme{
+        width: 300px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .image_profile{
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    .details{
+        margin-top: 30px;
+        margin-left: 50px
+    }
+    .details .icon{
+        padding-bottom: 30px;
+    }
+} 
